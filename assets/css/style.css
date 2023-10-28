@@ -2946,7 +2946,7 @@ hr {
 }
 .youtube-area .testmonial-nav button.slick-next {
   left: -340px;
-  background: red;
+  background: #068FFF;
   color: #fff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
