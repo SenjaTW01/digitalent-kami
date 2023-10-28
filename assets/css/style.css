@@ -3171,7 +3171,7 @@ hr {
   width: 100%;
 }
 .footer-bottom-area {
-  background: #100f0f;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 .footer-bottom-area .footer-border {
   border-top: 1px solid #242323;
@@ -3190,10 +3190,10 @@ hr {
   margin-bottom: 12px;
 }
 .footer-bottom-area .footer-copy-right p i {
-  color: #f27420;
+  color: #000;
 }
 .footer-bottom-area .footer-copy-right p a {
-  color: #f27420;
+  color: #000;
 }
 .footer-bottom-area .footer-copy-right p a:hover {
   color: #fff;
