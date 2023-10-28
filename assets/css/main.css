@@ -4679,7 +4679,7 @@ hr {
 
 /* line 1, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
 .footer-area {
-  background: #f8fafe;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);;
 }
 
 /* line 3, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
@@ -4689,7 +4689,7 @@ hr {
 
 /* line 7, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
 .footer-area .footer-pera p {
-  color: #868c98;
+  color: #000;
   padding-right: 125px;
   font-size: 16px;
   margin-bottom: 50px;
@@ -4700,6 +4700,7 @@ hr {
   /* line 7, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 138px;
+    color: #000;
   }
 }
 
@@ -4707,6 +4708,7 @@ hr {
   /* line 7, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 95px;
+    color: #000;
   }
 }
 
@@ -4714,6 +4716,7 @@ hr {
   /* line 7, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 13px;
+    color: #000;
   }
 }
 
@@ -4721,6 +4724,7 @@ hr {
   /* line 7, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 80px;
+    color: #000;
   }
 }
 
@@ -4728,12 +4732,14 @@ hr {
   /* line 7, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
   .footer-area .footer-pera p {
     padding-right: 30px;
+    color: #000;
   }
 }
 
 /* line 30, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
 .footer-area .footer-pera.footer-pera2 p {
   padding: 0;
+  color: #000;
 }
 
 /* line 35, ../../SAIFUL/Running_project/248. Magazine & News/assets/scss/_footer.scss */
