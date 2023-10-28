@@ -2156,7 +2156,7 @@ hr {
   }
 }
 .main-header .main-menu ul li:hover > a {
-  color: #fc3f00;
+  color: #068FFF;
 }
 .main-header .main-menu ul ul.submenu {
   position: absolute;
@@ -2168,7 +2168,7 @@ hr {
   opacity: 0;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
   padding: 17px 0;
-  border-top: 5px solid #fc3f00;
+  border-top: 5px solid #ffffff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2186,7 +2186,7 @@ hr {
   text-transform: capitalize;
 }
 .main-header .main-menu ul ul.submenu > li > a:hover {
-  color: #fc3f00;
+  color: #068FFF;
   background: none;
 }
 .header-area .header-top .header-info-right .header-social a i {
@@ -2611,7 +2611,7 @@ hr {
   margin-right: -15px;
 }
 .dot-style .slick-active button {
-  background: #fc4902;
+  background: #4b79be;
   height: 9px;
   width: 38px;
   border-radius: 10px;
@@ -2864,7 +2864,7 @@ hr {
   margin-right: -15px;
 }
 .weekly2-news-area .weekly2-wrapper .dot-style .slick-active button {
-  background: #fc4902;
+  background: #4b79be;
   height: 9px;
   width: 38px;
   border-radius: 10px;
