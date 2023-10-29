@@ -1976,7 +1976,10 @@ hr {
   background: #fff;
 }
 .black-bg {
-  background: #000;
+  background: #000000;
+}
+.signature-bg{
+  background: #068FFF;
 }
 .theme-bg {
   background: #fc3f00;
@@ -2031,12 +2034,12 @@ hr {
   display: inline-block;
 }
 .header-area .header-top .header-info-right .header-social li a {
-  color: #fff;
+  color: #ffffff;
   font-size: 13px;
   padding-left: 17px;
 }
 .header-area .header-top .header-info-right .header-social li a:hover {
-  color: #fc3f00;
+  color: #000000;
 }
 .header-area .header-mid {
   padding: 9px 0px;
