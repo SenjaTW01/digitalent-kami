@@ -51,24 +51,24 @@
 }
 .boxed-btn {
   background: #fff;
-  color: #fc3f00 !important;
+  color: #068FFF !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #fc3f00;
+  border: 1px solid #068FFF;
   letter-spacing: 3px;
   text-align: center;
-  color: #fc3f00;
+  color: #068FFF;
   text-transform: uppercase;
   cursor: pointer;
 }
 .boxed-btn:hover {
-  background: #fc3f00;
+  background: #068FFF;
   color: #fff !important;
-  border: 1px solid #fc3f00;
+  border: 1px solid #068FFF;
 }
 .boxed-btn:focus {
   outline: none;
@@ -484,7 +484,7 @@ hr {
   color: #888;
 }
 #scrollUp {
-  background: #fc3f00;
+  background: #068FFF;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -3322,7 +3322,7 @@ hr {
 }
 .blog_area a:hover,
 .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #fc3f00 0%, #fc3f00 99%);
+  background: -webkit-linear-gradient(131deg, #068FFF 0%, #068FFF 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -3678,7 +3678,7 @@ hr {
   height: 1px;
 }
 .categories_post:hover .categories_details {
-  background: rgba(222, 99, 32, 0.85);
+  background: #068FFF;
 }
 .blog_item {
   margin-bottom: 50px;
@@ -3696,10 +3696,10 @@ hr {
   margin-bottom: 30px;
 }
 .blog_details a {
-  color: #ff8b23;
+  color: #068FFF;
 }
 .blog_details a:hover {
-  color: #ff656a;
+  color: #068FFF;
 }
 .blog_details h2 {
   font-size: 18px;
@@ -3816,7 +3816,7 @@ hr {
   box-shadow: none;
 }
 .blog_right_sidebar .search_widget .input-group button {
-  background: #fc3f00;
+  background: #068FFF;
   border-left: 0;
   border: 1px solid #f0e9ff;
   padding: 4px 15px;
@@ -3914,7 +3914,7 @@ hr {
   font-size: 13px;
 }
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #fc3f00;
+  background: #068FFF;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -4089,7 +4089,7 @@ hr {
   display: inline-block;
 }
 .single-post-area .blog-author a:hover {
-  color: #ff656a;
+  color: #068FFF;
 }
 .single-post-area .blog-author p {
   margin-bottom: 0;
