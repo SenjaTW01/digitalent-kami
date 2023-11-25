@@ -29,57 +29,34 @@
     padding: 0;
 }
 
-.login-button {
-    background-color: blue; /* Warna latar belakang biru */
-    color: white; /* Warna teks putih */
-    padding: 5px 15px; /* Padding (jarak dalam tombol) */
-    border: none; /* Tanpa border */
-    border-radius: 25px; /* Melengkungkan sudut-sudut tombol */
-    cursor: pointer; /* Kursor berubah menjadi tangan saat mengarah ke tombol */
-    font-size: 16px; /* Ukuran teks */
-    width: 100px;
-    height: 30px ;
-    margin-top: 90px;
-}
-.sign-container {
-    background-color: rgb(166, 174, 181);
-    padding: 11px;
-    border-radius: 20px;
-    text-align: center;
-    margin-left: 1100px;
-    margin-top: 20px;
-    height: 5px;
-    width: 90px;
-    border: 2px solid blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: arial;
-    font-size: 15px;
-}
-.login-container {
-    background-color: rgb(166, 174, 181);
-    padding: 11px;
-    border-radius: 20px;
-    text-align: center;
-    margin-left: 980px;
-    margin-top: 70px;
-    height: 5px;
-    width: 90px;
-    border: 2px solid blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: arial;
-    font-size: 15px;
-}
+.header-mid {
+            background-color: #fff; /* Tambahkan warna latar belakang sesuai kebutuhan */
+            border-bottom: 1px solid #ddd; /* Tambahkan border bawah sesuai kebutuhan */
+            padding: 10px 0;
+        }
+
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .login-container {
+            margin-left: auto;      
+        }
+
+        .login-button button {
+            margin-left: 100px;
+            width: 10px;
+        }
+
+
  </style>       
         <!-- Box Icons -->
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
    
-    <div id="preloader-active">
+    <!-- <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
@@ -88,7 +65,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>  -->
    
     <!-- Preloader Start -->
 
@@ -118,32 +95,29 @@
                    </div>
                 </div>
                 
-                <div class="header-mid d-none d-md-block">
-                   <div class="container">
-                        <div class="row d-flex align-items-center">
-                            <div class="login-container">
-                                <i class="fa-solid fa-user" style="color: blue; margin-bottom: -0; width: 30px; margin-left: -5px;"></i>
-                                 <a href="login.html" class="hihiw">Login</a>
-                            </div>
-                            
-                            <div class="sign-container">
-                                <i class="fa-solid fa-right-to-bracket" style="color: blue; margin-bottom: -0; width: 30px; margin-left: -5px;"></i>
-                                 <a href="login.html" class="hahaw">SignUp</a>
-                            </div>
+                <div class="header-mid">
+                    <div class="container">
+                        <div class="row align-items-center">
                             <!-- Logo -->
-                            <div class="col-xl-3 col-lg-3 col-md-3">
+                            <div class="col-md-3">
                                 <div class="logo">
                                     <a href="index.html"><img src="assets/img/logo/logodigitalenand.png" alt=""></a>
-                                    
                                 </div>
                             </div>
-                            <div class="col-xl-9 col-lg-9 col-md-9">
-                                <div class="header-banner f-right ">
+                            <!-- Login and Sign Up -->
+                            <div class="col-md-6 login-container">
+                                <!-- Your login and sign-up buttons go here -->
+                                <a href="login.html" class="btn btn-primary">Login</a>
+                                <a href="signup.html" class="btn btn-success">Sign Up</a>
+                            </div>
+                            <!-- Header Banner -->
+                            <div class="col-md-3">
+                                <div class="header-banner f-right">
                                     <img src="#" alt="">
                                 </div>
                             </div>
                         </div>
-                   </div>
+                    </div>
                 </div>
                 
                <div class="header-bottom header-sticky">
