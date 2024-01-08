@@ -29,7 +29,7 @@
   background: #fff;
 }
 .black-bg {
-  background: #000;
+  background: #000000;
 }
 .theme-bg {
   background: #fc3f00;
@@ -1976,7 +1976,7 @@ hr {
   background: #fff;
 }
 .black-bg {
-  background: #000000;
+  background: #068FFF;
 }
 .signature-bg{
   background: #068FFF;
@@ -2612,7 +2612,7 @@ hr {
 .dot-style .slick-list {
   margin-left: -15px;
   margin-right: -15px;
-}
+} 
 .dot-style .slick-active button {
   background: #4b79be;
   height: 9px;
